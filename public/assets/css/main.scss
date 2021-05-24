@@ -1,0 +1,52 @@
+* {
+      font-family: "Fredoka One", cursive;
+}
+
+.faixa {
+      background-image: url(/assets/img/faixa.png);
+      position: absolute;
+      height: 9px;
+      width: 100%;
+}
+.header {
+      background: #fcdd8e;
+      padding: 27px 0px;
+      height: 97px;
+      .logo {
+            img {
+                  width: 100%;
+            }
+      }
+
+      .menu {
+            justify-content: space-evenly;
+            align-items: center;
+      }
+}
+
+.footer {
+      background: #ffffff;
+      border-radius: 35px 35px 0px 0px;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+
+      .menu {
+            justify-content: space-evenly;
+            align-items: center;
+      }
+      audio {
+            width: 100%;
+            background: red;
+      }
+}
+
+.main {
+      background-color: #fde3a2;
+      padding-bottom: 50px;
+   
+      h4 {
+            color: #d31f36;
+      }
+}
